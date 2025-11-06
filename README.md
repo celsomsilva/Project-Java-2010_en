@@ -67,6 +67,54 @@ Develop a robust, efficient Java desktop application to:
 
 ## Project Structure
 
+> Originally developed in 2010, this project already used full package declarations (e.g., `package br.com.project.controller`),
+> but the source files were stored in a simplified directory layout.  
+> In 2025(this English version), the structure was aligned to the correct physical package hierarchy.
+
+
+```
+Project-Java-2010_en/
+└── src/
+    ├── br/
+    │   └── com/
+    │       └── project/
+    │           ├── controller/
+    │           │   ├── StudentController.java
+    │           │   ├── ScholarController.java
+    │           │   ├── ScholarshipController.java
+    │           │   └── ProfessorController.java
+    │           │
+    │           ├── dao/
+    │           │   ├── Student.java
+    │           │   ├── StudentDAO.java
+    │           │   ├── Scholar.java
+    │           │   ├── ScholarDAO.java
+    │           │   ├── Scholarship.java
+    │           │   ├── ScholarshipDAO.java
+    │           │   ├── Person.java
+    │           │   ├── Professor.java
+    │           │   ├── ProfessorDAO.java
+    │           │   └── DBConnection.java
+    │           │
+    │           └── view/
+    │               ├── StudentWindow.java
+    │               ├── ScholarshipWindow.java
+    │               ├── ScholarWindow.java
+    │               ├── ProfessorWindow.java
+    │               ├── PersonWindow.java
+    │               ├── MainWindow.java
+    │               ├── WindowFrame.java
+    │               ├── MyPanel.java
+    │               ├── PanelButtons.java
+    │               └── geomatica_background.jpg
+    │
+    ├── LICENSE
+    └── README.md
+
+```
+
+
+
 Only the `.java` source files are included in this repository due to project constraints and Jasper/iReport licensing.
 
 To fully use the project:
@@ -87,7 +135,17 @@ When launching the application:
   - Menus for **File**, **Registration**, **Reports**, and **Help** are enabled.
 - Data operations and report generation become accessible via the GUI.
 
+
 ---
+
+## About the Refactoring
+
+This repository focuses on source code preservation and translation rather than execution.  
+All refactoring (class, variable, and comment translation) was performed directly in Eclipse IDE.
+
+---
+
+
 
 ## Licensing
 
@@ -107,6 +165,9 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 - Original .jrxml and compiled .jasper files were omitted.
 - Database creation scripts were excluded for privacy and contractual reasons.
 - Historical context: This system prototype was part of internal tooling used at **UERJ's Geomatics PGEC program** for academic and administrative scholarship management.
+- Source folders in this legacy project (2005–2010) do not follow the `br/com/...` package structure.
+- The compiler automatically generated the correct hierarchy inside `/bin`, as was common in early Java IDEs.
+
 
 
 ---
