@@ -1,14 +1,3 @@
-
-## Technologies Used
-
-![Java](https://img.shields.io/badge/Java%20SE-6%2F7-007396?logo=java&logoColor=white)
-![JDBC](https://img.shields.io/badge/JDBC-Database-blue)
-![MySQL](https://img.shields.io/badge/MySQL-5.x-4479A1?logo=mysql&logoColor=white)
-![JasperReports](https://img.shields.io/badge/JasperReports-iReport%20support-cc2020)
-![Eclipse](https://img.shields.io/badge/Eclipse-IDE-2C2255?logo=eclipseide&logoColor=white)
-![License](https://img.shields.io/github/license/celsomsilva/project-java-2010)
-
-
 # SISBOL – Scholarship Registration System - English Version
 
 
@@ -69,47 +58,54 @@ Develop a robust, efficient Java desktop application to:
 
 > Originally developed in 2010, this project already used full package declarations (e.g., `package br.com.project.controller`),
 > but the source files were stored in a simplified directory layout.  
-> In 2025(this English version), the structure was aligned to the correct physical package hierarchy.
+> In 2026(this English version), the structure was aligned to the correct physical package hierarchy.
 
 
 ```
 Project-Java-2010_en/
-└── src/
-    ├── br/
-    │   └── com/
-    │       └── project/
-    │           ├── controller/
-    │           │   ├── StudentController.java
-    │           │   ├── ScholarController.java
-    │           │   ├── ScholarshipController.java
-    │           │   └── ProfessorController.java
-    │           │
-    │           ├── dao/
-    │           │   ├── Student.java
-    │           │   ├── StudentDAO.java
-    │           │   ├── Scholar.java
-    │           │   ├── ScholarDAO.java
-    │           │   ├── Scholarship.java
-    │           │   ├── ScholarshipDAO.java
-    │           │   ├── Person.java
-    │           │   ├── Professor.java
-    │           │   ├── ProfessorDAO.java
-    │           │   └── DBConnection.java
-    │           │
-    │           └── view/
-    │               ├── StudentWindow.java
-    │               ├── ScholarshipWindow.java
-    │               ├── ScholarWindow.java
-    │               ├── ProfessorWindow.java
-    │               ├── PersonWindow.java
-    │               ├── MainWindow.java
-    │               ├── WindowFrame.java
-    │               ├── MyPanel.java
-    │               ├── PanelButtons.java
-    │               └── geomatica_background.jpg
-    │
-    ├── LICENSE
-    └── README.md
+  src/
+    main/
+      java/
+        br/
+          com/
+            project/
+              controller/
+                StudentController.java
+                ScholarController.java
+                ScholarshipController.java
+                ProfessorController.java
+
+              dao/
+                StudentDAO.java
+                ScholarDAO.java
+                ScholarshipDAO.java
+                ProfessorDAO.java
+                DBConnection.java
+
+              model/
+                Student.java
+                Scholar.java
+                Scholarship.java
+                Professor.java
+                Person.java
+
+              view/
+                StudentWindow.java
+                ScholarshipWindow.java
+                ScholarWindow.java
+                ProfessorWindow.java
+                PersonWindow.java
+                MainWindow.java
+                WindowFrame.java
+                MyPanel.java
+                PanelButtons.java
+
+      resources/
+        images/
+          geomatica_background.jpg
+
+  README.md
+  LICENSE
 
 ```
 
@@ -146,19 +142,6 @@ All refactoring (class, variable, and comment translation) was performed directl
 ---
 
 
-
-## Licensing
-
-**MIT License**
-
-```
-Copyright (c) 2010-2025
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software...
-```
-
----
-
 ## Important Notes
 
 - The system heavily relies on **JasperReports/iReport** for reporting — which requires external configuration not present in this repository.
@@ -172,20 +155,16 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 ---
 
+## Author
 
-## About the Author
+This project was developed by an engineer and data scientist with a background in:
 
-I’m a Data Science and Analytics specialist (USP postgraduate) and Computer Engineer (UERJ) with a career spanning from **Pascal/C/Java roots** to **modern Machine Learning and AI**.
-
-My academic and professional background includes:
-
-- **Computation in general**
-- **Machine Learning**
-- **Hierarchical nonlinear mixed models (HLM3/HLM2)**, **Intraclass correlation (ICC)** and other topics about **HLM**
-- **Residual diagnostics and model validation**
-- **Deep Learning, LLMs, and Reinforcement Learning (ongoing specialization)**
+* Postgraduate degree in **Data Science and Analytics (USP)**
+* Bachelor's degree in **Computer Engineering (UERJ)**
+* Special interest in statistical models, interpretability, and applied AI
 
 ---
+
 
 ## Contact  
 
