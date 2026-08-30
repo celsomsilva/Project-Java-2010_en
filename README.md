@@ -5,13 +5,16 @@
 
 
 ---
+---
 
 ## Project Status
 
 This repository is **work-in-progress**.  
 
 ---
+---
 
+<!--
 
 ## Overview
 
@@ -170,5 +173,4 @@ This project was developed by an engineer and data scientist with a background i
 
 - [LinkedIn](https://linkedin.com/in/celso-m-silva)  
 - Or open an [issue](https://github.com/celsomsilva/project-java-2010_en/issues)
-
-
+-->
